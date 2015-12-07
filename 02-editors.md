@@ -31,7 +31,8 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I would use vim terminal editor because even though the learning curve for vim is steep, it is very flexible and has many features. Nano doesn’t have too many fancy features and has a simpler interface which is user-friendly but vim is more powerful than nano.
+
 
 ---
 
@@ -61,6 +62,24 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> I choose IPython notebooks because IPython gives access to Markdown and Latex means that you can write very detailed explanations or walkthroughs of your code and project and then include code that can be edited or even be interactive. It is very easy to share files. 
+
+Some of the interesting features of IPython Notebook are  
+Include mathematical equations, import standard python scripts, in-browser editing, syntax highlighting, tab completion and auto indentation, inline figures.
+
+Some useful keyboard shortcuts are
+Enter key to create a new line in the cell and not execute the cell
+Shift + Enter to execute the cell and go to the next cell
+Alt + Enter to execute the cell and append a new empty cell right after it
+Ctrl + Enter for quick instant experiments when you do not want to save the output
+Ctrl + M and then the H key to display the list of all the keyboard shortcuts
+
+Ipython notebook can be customized by: 
+Overriding the default CSS of your notebook using IPython.core.display
+Displaying arbitrary variables with IPython.display
+Using Matplotlib styles to improve your plots
+
+
+
 
 ---
