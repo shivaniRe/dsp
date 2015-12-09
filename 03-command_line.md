@@ -13,7 +13,7 @@ these in a couple of hours.
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
 > > rm -rf : Command removes directory with files in it.
-* (asterisk): symbol is to say "anything". Wherever you put *, the shell will build a list of all the files that match the non-asterisk part.
+(asterisk) *: symbol is to say "anything". Wherever you put *, the shell will build a list of all the files that match the non-asterisk part.
 find: command is used to search for all the files.
 grep: is used to search for different words in all the files in the directory. e.g.: grep <word> *.txt (find all the .txt files with the word) or grep "<list of words/ a sentence>" *.txt
 man: command is used to find information about commands. e.g.: man find, man less etc
