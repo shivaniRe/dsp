@@ -1,4 +1,9 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
+'''
+The result of Cohen's d for totalwgt_lb variable is -0.0691193601989. The negative cohen's effect size indicates that the mean of totalwgt of other pregnancies is larger than the mean of totalwgt of first pregnancies. From this we can infer that first babies are lighter than other babies.
+Where as the Cohen's effect size for pregnancy length is positive, i.e., the pregnancy length for first babies is longer than that for the other babies.
+Below is the code to calculate Cohen's effect size of totalwgt_lb.
+'''
 
 import numpy as np
 import thinkstats2
@@ -53,12 +58,6 @@ others = live[live.pregordr != 1]
 
 first_hist = thinkstats2.Hist(firsts.totalwgt_lb)
 other_hist = thinkstats2.Hist(others.totalwgt_lb)
-
-# Plot histograms on the same axis
-thinkplot.PrePlot(2)
-thinkplot.Hist(first_hist, align = 'right', width = 0.45)
-thinkplot.Hist(other_hist, align = 'left', width = 0.45)
-thinkplot.show(xlabel = "totalwgt_lb", ylabel = "frequency")
 
 cohens_d = CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 print "Cohen's Effect Size = ", cohens_d
