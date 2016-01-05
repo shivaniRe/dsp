@@ -1,3 +1,15 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+import thinkstats2
+import scipy.stats
+
+mu = 178
+sigma = 7.7
+# CDF at 5'10" i.e., 177.8 cm
+cdf1 = scipy.stats.norm.cdf(177.8, loc = mu, scale = sigma)
+# CDF at 6'1" i.e., 185.4cm
+cdf2 = scipy.stats.norm.cdf(185.4, loc = mu, scale = sigma)
+# Percentage of men between 5'10" and 6'1" 
+print "Percentage of U.S men that are in the 5'10 and 6'1 range are", cdf2-cdf1 
+
+
