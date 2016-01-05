@@ -13,3 +13,7 @@ cdf2 = scipy.stats.norm.cdf(185.4, loc = mu, scale = sigma)
 print "Percentage of U.S men that are in the 5'10 and 6'1 range are", cdf2-cdf1 
 
 
+Null Hypothesis: Percentage of U.S men that are in the 5'10" and 6'1" range is 0.342094682946
+Alternate Hypothesis: Percentage of U.S men that are in the 5'10" and 6'1" range is not 0.342094682946
+Critical value for testing: 0.05
+The associated p-value is: 1 - cdf = 1-0.342094682946 = 0.657905317054
