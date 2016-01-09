@@ -2,6 +2,8 @@
 
 The standard error in this case is 1.71160743163. This way of making estimates seems to be biased since the mean error does not converge to 0 as m increases. And as lambda increases, the standard error increases.
 
+Please find the code below:
+
 import thinkstats2
 import thinkplot
 import math
